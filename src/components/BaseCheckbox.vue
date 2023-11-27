@@ -1,5 +1,10 @@
 <template>
-  <input class="field" />
+  <input
+    type="checkbox"
+    class="field"
+    :checked="modelValue"
+    @change="$emit('update:modelValue', $event.target.checked)"
+  />
   <label v-if="label">{{ label }}</label>
 </template>
 
@@ -10,6 +15,10 @@ export default {
     label: {
       type: String,
       default: ''
+    },
+    modelValue: {
+      type: Boolean,
+      default: false
     }
   }
 }
