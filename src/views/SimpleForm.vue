@@ -70,13 +70,13 @@
 </template>
 
 <script>
-import BaseInput from '@/components/BaseInput.vue'
-import BaseSelect from '@/components/BaseSelect.vue'
-import BaseCheckbox from '@/components/BaseCheckbox.vue'
-import BaseRadio from '@/components/BaseRadio.vue'
+// import BaseInput from '@/components/BaseInput.vue'
+// import BaseSelect from '@/components/BaseSelect.vue'
+// import BaseCheckbox from '@/components/BaseCheckbox.vue'
+// import BaseRadio from '@/components/BaseRadio.vue'
 
 export default {
-  components: { BaseInput, BaseSelect, BaseCheckbox, BaseRadio },
+  // components: { BaseInput, BaseSelect, BaseCheckbox, BaseRadio },
 
   data () {
     return {
